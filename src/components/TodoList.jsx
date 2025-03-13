@@ -201,7 +201,7 @@ const TodoList = () => {
       {/* Header Section */}
       <div className="w-full flex justify-between items-center p-4 md:p-6 lg:p-8 mb-4 md:mb-6 lg:mb-8">
         <p className="text-gray-300 text-lg md:text-xl lg:text-2xl bg-blue-gray-900 p-2 rounded-md shadow-md">
-          DApp TK
+          DApp Task Keeper
         </p>
         {account === "Not connected" || account === "" ? (
           <Button
