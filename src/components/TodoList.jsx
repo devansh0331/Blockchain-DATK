@@ -195,7 +195,7 @@ const TodoList = () => {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-no-repeat bg-fixed"
+      className="min-h-screen bg-cover bg-no-repeat bg-fixed relative"
       style={{ backgroundImage: `url(${bg})` }}
     >
       {/* Header Section */}
@@ -423,6 +423,11 @@ const TodoList = () => {
             </div>
           </div>
         </Dialog>
+      </div>
+      <div className="w-full flex justify-center bottom-5 absolute text-white">
+        <p>
+          Developed with &#x1F604;, trusted by <b>Blockchain</b>
+        </p>
       </div>
     </div>
   );
