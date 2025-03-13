@@ -425,9 +425,7 @@ const TodoList = () => {
         </Dialog>
       </div>
       <div className="w-full flex justify-center bottom-5 absolute text-white">
-        <p>
-          Developed with &#x1F604;, trusted by <b>Blockchain</b>
-        </p>
+        <p>Developed with &#x1F604;, trusted by &#x2665;&#xfe0f;</p>
       </div>
     </div>
   );
